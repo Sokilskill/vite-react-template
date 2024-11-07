@@ -26,9 +26,10 @@
      npm run build
      ```
 
-2. **Налаштування `package.json`**
+2. **Налаштування **
 
-   - Замініть `"name": "vite-react-template"` на назву вашого проєкту.
+   - Замініть `"name": "vite-react-template"` в `package.json` на назву вашого проєкту.
+   - Замініть `"base: "/vite-react-template/"` в `vite.config.js` на базовий URL вашого проєкту.
 
 3. **Редагування `index.html`**
 

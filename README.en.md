@@ -26,9 +26,10 @@ A template for quickly setting up a React project using Vite, Husky, and ESLint.
      npm run build
      ```
 
-2. **Setting up `package.json`**
+2. **Setting up **
 
-   - Replace `"name": "vite-react-template"` with your project’s name.
+   - Replace `"name": "vite-react-template"` in `package.json` with your project’s name.
+   - Replace `"base: "/vite-react-template/"` in `vite.config.js` with your base url.
 
 3. **Editing `index.html`**
 
